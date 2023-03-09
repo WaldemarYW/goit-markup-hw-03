@@ -1,0 +1,184 @@
+:root {
+  /* Primary Brand  */
+  --iris: #4d5ae5;
+
+  /* Pressed state */
+  --ocean: #404bbf;
+
+  /* Dark */
+  --navy-blue: #2e2f42;
+
+  /* Text */
+  --slate: #434455;
+
+  /* Subtle Text*/
+  --light-slate: #8e8f99;
+
+  /* Accent */
+  --cornflower: #e7e9fc;
+
+  /* Light */
+  --cloud: #f4f4fd;
+
+  /* Modal overlay */
+  --navy-blue-modal: #2e2f42;
+
+  /* background  */
+  --white-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  background-color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*---- 
+* {
+  list-style: none;
+  text-decoration: none;
+} 
+-----*/
+/* --------------------_logo_----------------- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio {
+  color: var(--navy-blue);
+}
+.logo-footer {
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cloud);
+}
+
+/* -----------------header section */
+.link-menu {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--navy-blue);
+}
+.addres-contact {
+  font-style: normal;
+}
+.link-contact {
+  color: var(--slate);
+}
+.link-menu:hover,
+.link-menu:focus,
+.link-contact:hover,
+.addres-contact:focus {
+  color: var(--ocean);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--ocean);
+}
+
+/* --------------------body section */
+.hero-section {
+  background: var(--navy-blue);
+}
+/* ----------------------about */
+
+.team-section {
+  background: var(--cloud);
+}
+
+/* ---------------------footer section */
+.footer-section {
+  background: var(--navy-blue);
+}
+.foot-info {
+  color: var(--cornflower);
+}
+/* --------------------------------------------PORTFOLIO */
+
+/* .content-link:hover,
+.content-link:focus {
+  background: var(--ocean);
+} */
+
+/*--------------- h1-h3, p setting */
+.hi-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white-color);
+  letter-spacing: 0.02em;
+}
+.hii-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.h-hide {
+  display: none;
+}
+.hiii-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+.p-title {
+  color: var(--slate);
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+  background: var(--iris);
+  border: 1px solid var(--cornflower);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.fltr-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--iris);
+  background: var(--cloud);
+  border: 1px solid var(--cornflower);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.fltr-btn:hover,
+.fltr-btn:focus {
+  color: var(--white-color);
+  background: var(--ocean);
+}
